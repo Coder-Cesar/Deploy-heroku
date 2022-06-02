@@ -8,7 +8,7 @@ import { EstudiantesModel } from './estudiantes/estudiantes.model';
   imports: [
     EstudiantesModel,
     MongooseModule.forRoot(
-      'mongodb+srv://Cesar:<password>@estudiantes.lmqhx.mongodb.net/?retryWrites=true&w=majority',
+      'mongodb+srv://Cesar:<Cesar1984>@estudiantes.lmqhx.mongodb.net/?retryWrites=true&w=majority',
     ),
   ],
   controllers: [AppController],
