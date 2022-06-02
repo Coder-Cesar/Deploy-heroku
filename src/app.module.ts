@@ -7,7 +7,9 @@ import { EstudiantesModel } from './estudiantes/estudiantes.model';
 @Module({
   imports: [
     EstudiantesModel,
-    MongooseModule.forRoot('mongodb://localhost/api-estudiantes'),
+    MongooseModule.forRoot(
+      'mongodb+srv://Cesar:<password>@estudiantes.lmqhx.mongodb.net/?retryWrites=true&w=majority',
+    ),
   ],
   controllers: [AppController],
   providers: [AppService],
