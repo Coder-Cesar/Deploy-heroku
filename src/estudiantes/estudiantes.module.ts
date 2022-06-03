@@ -13,4 +13,4 @@ import { EstudiantesService } from './estudiantes.service';
   providers: [EstudiantesService],
   controllers: [EstudiantesController],
 })
-export class EstudiantesModel {}
+export class EstudiantesModule {}
