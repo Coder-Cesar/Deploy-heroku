@@ -47,7 +47,7 @@ export class EstudiantesController {
     const borrar = await this.estudiantesService.delete(id);
     return res.status(HttpStatus.OK).json({
       message: 'Student Deleted Successfully',
-      borrar,
+      estudiante: borrar,
     });
   }
 }
